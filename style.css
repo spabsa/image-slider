@@ -1,0 +1,40 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #308D7D;
+}
+
+.container {
+	background-color: red;
+	flex: 0 0 65%;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	border-radius: 12px;
+	box-shadow: 5px 10px 100px black;
+	background: url(img/halo-1.jpg)center/cover no-repeat;
+}
+
+.btn {
+	font-size: 1.5rem;
+	color: #308D7D;
+	background: black;
+	border: none;
+	border-radius: 6px;
+	padding: 5px 15px;
+}
+
+.prev {
+	position: relative;
+	left: -47px;
+}
+
+.next {
+	position: relative;
+	left: 756px;
+}
+
+button:hover {
+	color: cyan;
+}
